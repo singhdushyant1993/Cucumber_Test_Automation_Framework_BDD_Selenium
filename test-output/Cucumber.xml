@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="11" time="0">
+    <testcase classname="Login Page Features" name="Login to Admin Portal Test Scenario" time="0">
+        <system-out>
+            <![CDATA[Given user is on login page.................................................skipped
+Then user enters username and password......................................skipped
+Then user clicks on login button............................................skipped
+Then verify login to admin portal...........................................skipped
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Mobile Admin Page Features" name="Login to Mobile Admin Test Scenario" time="0">
+        <system-out>
+            <![CDATA[Given user is on home page..................................................skipped
+Then user close dialog box..................................................skipped
+Then user clicks on policy lbl..............................................skipped
+Then user clicks on zapp portal lbl.........................................skipped
+Then verify login to mobile admin portal....................................skipped
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Add Policy Page Features" name="Add Mac OS Policy Test Scenario" time="0">
+        <system-out>
+            <![CDATA[Given user is on Mobile Admin Page..........................................skipped
+Then user clicks on App Profiles lbl........................................skipped
+Then user clicks on macOS Platform Lbl......................................skipped
+Then user clicks on Add macOS Policy button.................................skipped
+Then user enter details "macPolicy1" "Default" "Yes" "All" "1234" "1234" "Default" "Default" "Yes" "Debug" "100" "0" "0.0.0.0" "0.0.0.0" "0.0.0.0" "Mac Policy Description.".skipped
+Then user clicks on save btn................................................skipped
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Add Policy Page Features" name="Add Mac OS Policy Test Scenario 2" time="0">
+        <system-out>
+            <![CDATA[Given user is on Mobile Admin Page..........................................skipped
+Then user clicks on App Profiles lbl........................................skipped
+Then user clicks on macOS Platform Lbl......................................skipped
+Then user clicks on Add macOS Policy button.................................skipped
+Then user enter details "macPolicy2" "Default" "Yes" "Service Admin,sync10,User Group,Executives,Managers,IT,Interns,UI,test" "abcd" "abcd" "Default" "test" "Yes" "Debug" "100" "0" "0.0.0.0" "0.0.0.0" "0.0.0.0" "Mac Policy Description.".skipped
+Then user clicks on save btn................................................skipped
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Add Policy Page Features" name="Add Mac OS Policy Test Scenario 3" time="0">
+        <system-out>
+            <![CDATA[Given user is on Mobile Admin Page..........................................skipped
+Then user clicks on App Profiles lbl........................................skipped
+Then user clicks on macOS Platform Lbl......................................skipped
+Then user clicks on Add macOS Policy button.................................skipped
+Then user enter details "macPolicy3" "Default" "Yes" "None" "Default" "Default" "Default" "dj" "Yes" "Debug" "100" "0" "0.0.0.0" "0.0.0.0" "0.0.0.0" "Mac Policy Description.".skipped
+Then user clicks on save btn................................................skipped
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Edit Mac OS Policy Page Features" name="Edit Mac OS Policy Description Test Scenario" time="0">
+        <system-out>
+            <![CDATA[Given user is on Mobile Admin Page..........................................skipped
+Then user clicks on App Profiles lbl........................................skipped
+Then user clicks on macOS Platform Lbl......................................skipped
+Then user update policy "macPolicy1" "Mac Policy Description Edited.".......skipped
+Then user clicks on save button.............................................skipped
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Edit Mac OS Policy Page Features" name="Edit Mac OS Policy Description Test Scenario 2" time="0">
+        <system-out>
+            <![CDATA[Given user is on Mobile Admin Page..........................................skipped
+Then user clicks on App Profiles lbl........................................skipped
+Then user clicks on macOS Platform Lbl......................................skipped
+Then user update policy "macPolicy2" "Mac Policy Description Edited.".......skipped
+Then user clicks on save button.............................................skipped
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Edit Mac OS Policy Page Features" name="Edit Mac OS Policy Description Test Scenario 3" time="0">
+        <system-out>
+            <![CDATA[Given user is on Mobile Admin Page..........................................skipped
+Then user clicks on App Profiles lbl........................................skipped
+Then user clicks on macOS Platform Lbl......................................skipped
+Then user update policy "macPolicy3" "Mac Policy Description Edited.".......skipped
+Then user clicks on save button.............................................skipped
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Delete Mac OS Policy Page Feature" name="Delete Mac OS POlicy Test Scenario" time="0">
+        <system-out>
+            <![CDATA[Given user is on Mobile Admin Page..........................................skipped
+Then user clicks on App Profiles lbl........................................skipped
+Then user clicks on macOS Platform Lbl......................................skipped
+Then user clicks on delete policy btn "macPolicy1"..........................skipped
+Then user clicks ok btn.....................................................skipped
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Delete Mac OS Policy Page Feature" name="Delete Mac OS POlicy Test Scenario 2" time="0">
+        <system-out>
+            <![CDATA[Given user is on Mobile Admin Page..........................................skipped
+Then user clicks on App Profiles lbl........................................skipped
+Then user clicks on macOS Platform Lbl......................................skipped
+Then user clicks on delete policy btn "macPolicy2"..........................skipped
+Then user clicks ok btn.....................................................skipped
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Delete Mac OS Policy Page Feature" name="Delete Mac OS POlicy Test Scenario 3" time="0">
+        <system-out>
+            <![CDATA[Given user is on Mobile Admin Page..........................................skipped
+Then user clicks on App Profiles lbl........................................skipped
+Then user clicks on macOS Platform Lbl......................................skipped
+Then user clicks on delete policy btn "macPolicy3"..........................skipped
+Then user clicks ok btn.....................................................skipped
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
